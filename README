@@ -1,0 +1,18 @@
+# Personal Portfolio Site Scaffold
+
+## Pages
+- `index.html` — Home page
+- `projects.html` — Projects/Work page
+- `about.html` — About/Contact page
+- `wireframe.png` — Three-page layout wireframe
+
+## Design plan
+- **Color palette:** deep navy, teal, warm off-white, and charcoal.
+- **Font choices:** a clean sans-serif such as Arial or Inter for body text; a bold sans-serif such as Montserrat for headings.
+- **Structure:** semantic HTML elements, one primary `h1` per page, nested section headings, and shared relative navigation links.
+
+## Before submitting
+1. Replace “Your Name” and all placeholder text with your information.
+2. Open each HTML file in a browser and test the navigation links.
+3. Create a GitHub repository and upload these files, including `wireframe.png`.
+4. Submit your repository URL to your instructor.
