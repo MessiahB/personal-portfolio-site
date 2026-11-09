@@ -1,18 +1,104 @@
-About Me
-Learn more about my background and how to reach me.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about Jaliyah Atkins and use the accessible contact form.">
+  <title>Jaliyah Atkins | About and Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="form.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Jaliyah Atkins home">JA<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Projects/Work</a></li>
+          <li><a class="active" aria-current="page" href="about.html">About/Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-Home
-Projects/Work
-About/Contact
-My Background
-Add a short biography, interests, skills, and goals here.
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">About me</p>
+        <h1>My background and goals</h1>
+        <p class="hero-copy">A little more about my interests, experience, and the direction I am working toward.</p>
+      </div>
+    </section>
 
-Skills and Interests
-List relevant skills, tools, and areas of interest.
+    <section class="section container about-layout">
+      <div class="about-copy">
+        <div class="section-heading">
+          <p class="eyebrow">My story</p>
+          <h2>Building skills for what comes next</h2>
+        </div>
+        <p>I am a returning student with a background in office administration and business operations. I have always been interested in computers, and I am continuing my education to grow my knowledge of information technology.</p>
+        <p>I value persistence, learning, and finding practical solutions. My goal is to keep developing my technical skills and explore opportunities in cybersecurity and other areas of IT.</p>
+        <h3>Skills and interests</h3>
+        <ul class="skills-list">
+          <li>Computer and digital literacy</li>
+          <li>HTML and CSS fundamentals</li>
+          <li>Problem-solving and research</li>
+          <li>Business and office operations</li>
+          <li>Cybersecurity and incident response</li>
+        </ul>
+        <p class="contact-detail"><strong>Email:</strong> <a href="mailto:your.email@example.com">Add your professional email address</a></p>
+      </div>
 
-Contact
-Add a professional email address or other contact details here.
+      <div class="form-panel">
+        <p class="eyebrow">Say hello</p>
+        <h2>Contact me</h2>
+        <p class="form-intro">Use the form below to send a message. Fields marked required must be completed.</p>
+        <form id="contact-form" novalidate>
+          <fieldset>
+            <legend>Your contact information</legend>
+            <div class="form-field">
+              <label for="name">Full name <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+              <p class="field-error" id="name-error"></p>
+            </div>
+            <div class="form-field">
+              <label for="email">Email address <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+              <p class="field-error" id="email-error"></p>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Your message</legend>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" aria-describedby="subject-help">
+              <p class="field-help" id="subject-help">A short topic for your message (optional).</p>
+            </div>
+            <div class="form-field">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+              <p class="field-error" id="message-error"></p>
+            </div>
+          </fieldset>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <button class="button button-primary submit-button" type="submit">Check my message</button>
+          <p class="form-note">Demo form: it checks required fields in your browser but does not send or store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-Email: your.email@example.com
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Jaliyah Atkins. All rights reserved.</p>
+      <a href="index.html">Back to home</a>
+    </div>
+  </footer>
+</body>
+</html>
 
-© 2026 Your Name. All rights reserved.
