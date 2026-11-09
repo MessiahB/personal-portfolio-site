@@ -1,23 +1,77 @@
-Projects and Work
-A selection of my work and learning projects.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected projects and coursework by Jaliyah Atkins.">
+  <title>Jaliyah Atkins | Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Jaliyah Atkins home">JA<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" aria-current="page" href="project.html">Projects/Work</a></li>
+          <li><a href="about.html">About/Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-Home
-Projects/Work
-About/Contact
-Featured Projects
-Project One
-Describe the goal, tools, and outcome of your first project.
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">My work</p>
+        <h1>Projects and learning</h1>
+        <p class="hero-copy">A growing collection of coursework and practice projects. Each one represents a new skill, lesson, or step forward.</p>
+      </div>
+    </section>
 
-Project link placeholder
+    <section class="section container" aria-labelledby="projects-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2 id="projects-heading">What I have been working on</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-tag">Web development</span><span class="project-index" aria-hidden="true">01</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p class="project-meta">HTML · CSS · Responsive design</p>
+          <p>A multi-page portfolio created to practice semantic HTML, consistent styling, responsive layouts, and accessible navigation.</p>
+          <span class="status-label">Course project</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-tag">Cybersecurity</span><span class="project-index" aria-hidden="true">02</span></div>
+          <h3>Cybersecurity Career Research</h3>
+          <p class="project-meta">Research · Technical communication</p>
+          <p>A career exploration project focused on cybersecurity incident response, including the responsibilities and skills needed to investigate and respond to security events.</p>
+          <span class="status-label">Research project</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-tag">Professional writing</span><span class="project-index" aria-hidden="true">03</span></div>
+          <h3>Writing Portfolio</h3>
+          <p class="project-meta">Writing · Editing · Audience awareness</p>
+          <p>A collection of writing assignments developed to practice clear communication, organization, revision, and writing for specific audiences.</p>
+          <span class="status-label">Coursework</span>
+        </article>
+      </div>
+      <p class="note">This portfolio is a work in progress. Project descriptions will be updated as new work is completed.</p>
+    </section>
+  </main>
 
-Project Two
-Describe the goal, tools, and outcome of your second project.
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Jaliyah Atkins. All rights reserved.</p>
+      <a href="about.html">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
 
-Project link placeholder
-
-Project Three
-Describe the goal, tools, and outcome of your third project.
-
-Project link placeholder
-
-© 2026 Your Name. All rights reserved.
