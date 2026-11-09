@@ -1,14 +1,85 @@
-Jaliyah Atkins
-Welcome to my personal portfolio.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal portfolio of Jaliyah Atkins, featuring an introduction, projects, and professional interests.">
+  <title>Jaliyah Atkins | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Jaliyah Atkins home">JA<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="active" aria-current="page" href="index.html">Home</a></li>
+          <li><a href="project.html">Projects/Work</a></li>
+          <li><a href="about.html">About/Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-Home
-Projects/Work
-About/Contact
-Introduction
-Write a short introduction about yourself and what you do.
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Personal portfolio</p>
+        <h1>Jaliyah Atkins</h1>
+        <p class="hero-lead">Curious learner. Problem solver. Future technology professional.</p>
+        <p class="hero-copy">Welcome to my portfolio. I am building my skills in information technology and exploring how technology can solve real problems. This site highlights my background, projects, and goals.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="project.html">Explore my work</a>
+          <a class="button button-secondary" href="about.html">Get in touch</a>
+        </div>
+      </div>
+    </section>
 
-Featured Work
-Preview a project you are proud of.
+    <section class="section container" aria-labelledby="intro-heading">
+      <div class="section-heading">
+        <p class="eyebrow">A little about me</p>
+        <h2 id="intro-heading">Learning with purpose</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="card-number" aria-hidden="true">01</span>
+          <h3>Technology</h3>
+          <p>I enjoy learning how websites, computer systems, and digital tools work. I am continuing to strengthen my technical and problem-solving skills.</p>
+        </article>
+        <article class="feature-card">
+          <span class="card-number" aria-hidden="true">02</span>
+          <h3>Growth</h3>
+          <p>Returning to school has helped me focus on my goals, build confidence, and keep moving forward even when a challenge takes extra effort.</p>
+        </article>
+        <article class="feature-card">
+          <span class="card-number" aria-hidden="true">03</span>
+          <h3>Future goals</h3>
+          <p>I am interested in information technology and cybersecurity, especially work that helps people and organizations stay safe online.</p>
+        </article>
+      </div>
+    </section>
 
-View my projects
-© 2026 Your Name. All rights reserved.
+    <section class="callout">
+      <div class="container callout-inner">
+        <div>
+          <p class="eyebrow">Featured work</p>
+          <h2>See what I am learning</h2>
+          <p>Explore selected coursework and projects that show my progress as a technology student.</p>
+        </div>
+        <a class="button button-light" href="project.html">View projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Jaliyah Atkins. All rights reserved.</p>
+      <a href="about.html">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
