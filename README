@@ -1,18 +1,47 @@
-# Personal Portfolio Site Scaffold
+# Jaliyah Atkins — Personal Portfolio
 
-## Pages
-- `index.html` — Home page
-- `projects.html` — Projects/Work page
-- `about.html` — About/Contact page
-- `wireframe.png` — Three-page layout wireframe
+A responsive, three-page personal portfolio built with semantic HTML, CSS, and a small amount of JavaScript for accessible form validation.
 
-## Design plan
-- **Color palette:** deep navy, teal, warm off-white, and charcoal.
-- **Font choices:** a clean sans-serif such as Arial or Inter for body text; a bold sans-serif such as Montserrat for headings.
-- **Structure:** semantic HTML elements, one primary `h1` per page, nested section headings, and shared relative navigation links.
+## Pages and files
 
-## Before submitting
-1. Replace “Your Name” and all placeholder text with your information.
-2. Open each HTML file in a browser and test the navigation links.
-3. Create a GitHub repository and upload these files, including `wireframe.png`.
-4. Submit your repository URL to your instructor.
+- `index.html` — Home page and introduction
+- `project.html` — Projects and coursework
+- `about.html` — Background, skills, and contact form
+- `style.css` — Shared visual design and responsive layouts
+- `form.js` — Client-side contact-form validation and accessible feedback
+
+## Design system
+
+The same color palette and typography are used on all three pages:
+
+| Purpose | Color | Hex |
+|---|---|---|
+| Primary backgrounds and headings | Deep navy | `#102A43` |
+| Accent and interactive elements | Dark teal | `#005454` |
+| Page background | Warm off-white | `#F7F5F0` |
+| Main text | Charcoal | `#243B53` |
+| Cards and form surfaces | White | `#FFFFFF` |
+
+The site uses Inter for body text and Montserrat for headings. The layout changes at 768px and 480px so content remains usable on tablets and small screens.
+
+## Accessibility work
+
+Accessibility features included in the project:
+
+- Each page declares its document language, has a descriptive page title and meta description, and uses a single main heading.
+- A skip link lets keyboard users bypass repeated navigation.
+- Navigation is inside a labeled `nav` landmark; the current page link uses `aria-current="page"`.
+- Content uses semantic headings, sections, articles, lists, labels, and form fieldsets.
+- Keyboard focus is visible on links, buttons, and form controls.
+- The contact form has programmatically associated labels, required fields, helpful descriptions, inline error messages, `aria-invalid` states, and live status feedback.
+- Reduced-motion preferences are respected.
+- Images are not currently used, so no image alternative text is needed.
+
+### Contrast
+
+The text and control colors were selected to meet WCAG 2.1 AA contrast targets (at least 4.5:1 for normal text and 3:1 for large text and meaningful interface components). The core combinations include white on navy, white on dark teal, charcoal on off-white, and dark teal on white. Recheck any future color changes with the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
+
+### WAVE testing record
+
+WAVE is an external browser-based checker, so the live published pages must be tested after deployment. The source files have been reviewed for common issues, but a WAVE scan has **not** been run from this local project archive.
+
